@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import {disableReactTools} from '@fvilers/disable-react-devtools';
 
-if(process.env.NODE_ENV==='production') disableReactTools();
+// if(process.env.NODE_ENV==='production') disableReactTools();
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
