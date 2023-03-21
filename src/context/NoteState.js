@@ -2,7 +2,7 @@ import { useState } from "react";
 import NoteContext from "./NoteContext";
 
 const NoteState=(props)=>{
-    const host= "https://iNotebook-api.onrender.com"
+    const host= "https://inotebookapi-g654.onrender.com"
     const notesInitial=[]
     const [notes, setNotes] = useState(notesInitial)
     //Get all Notes
